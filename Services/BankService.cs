@@ -1,7 +1,7 @@
 ﻿using System;
 namespace OreganCoAPI.Services
 {
-    public class BankService
+    public class BankService : IBankService
     {
         public BankService()
         {
