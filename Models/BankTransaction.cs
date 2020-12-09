@@ -5,7 +5,9 @@ namespace OreganCoAPI.Models
     {
         //public int TransactionId { get; set; }
         public string Concept { get; set; }
-        public DateTime DateTime { get; set; }
+        //public DateTime DateTime { get; set; }
         public double Amount { get; set; }
+        public string Origin { get; set; }
+        public string Comment { get; set; }
     }
 }
